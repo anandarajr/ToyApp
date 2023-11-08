@@ -1,0 +1,16 @@
+﻿
+Step 1: Download the Source Code from the repository
+		https://github.com/anandarajr/ToyApp.git
+
+Step 2: Open the IGreenData.ToySimulator.sln in Visual Studio 2022.
+
+Step 3: Target Framework: .Net 6.0
+
+Step 4: Set the following project as start up project
+		IGreenData.ToySimulator
+
+Step 5: Press F5
+
+Step 6: Pass the Input. (Refer SampleInput.txt)
+
+Step 7: Added Unit Test Cases (Refer IGreenData.ToySimulator.Tests)

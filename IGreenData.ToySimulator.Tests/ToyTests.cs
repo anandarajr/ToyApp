@@ -16,7 +16,7 @@ namespace IGreenData.ToySimulator.Tests
         {
             toySurface = new ToySurface(5, 5);
             robot = new Toy(toySurface);
-            toyPlayer = new IGreenData.ToyApplication.ToySimulator(robot);
+            toyPlayer = new ToySimulator(robot);
         }
 
         [TestMethod]

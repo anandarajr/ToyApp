@@ -1,8 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using IGreenData.ToyApplication;
+using IGreenData.ToySimulator;
 
-IToySurfacer tableSurfacer = new ToySurface(5, 5);
-IToy robot = new Toy(tableSurfacer);
+IToySurfacer toySurfacer=new ToySurface(5, 5);
+IToy robot = new Toy(toySurfacer);
 IToySimulator simulator = new ToySimulator(robot);
 
 string command;
